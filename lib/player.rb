@@ -9,7 +9,7 @@ class Player
 
   # attr_accessors (macros for setter and getter methods) for different attribues of Player
 
-  attr_accessor :name,:position,:schoolclub,:class_year,:height,:weight,:age,:last_rank,:blurb
+  attr_accessor :name,:position,:schoolclub,:class_year,:height,:weight,:age,:last_rank,:blurb,:rank
   @@all=[]
 
   # initialize a new instance of Player...reads in a player hash, creates a new instance
@@ -54,7 +54,9 @@ class Player
   end
   # displays detailed info for an instance of Player
   def display_info
-      puts "Name: #{self.name}"
+      
+      puts "\nPlayer Name: #{self.name}"
+      puts "Current Rank: #{self.rank}"
       puts "Position:  #{self.position}"
       puts "School/Club:  #{self.schoolclub}"
       # binding.pry

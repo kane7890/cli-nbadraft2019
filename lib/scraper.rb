@@ -71,7 +71,8 @@ class Scraper
             playhashrow[:class_year]=class_year
 
         end
-
+        # put the current rank into the player hash (to avoid having to search later)
+        playhashrow[:rank]=i+1
       #   binding.pry
         playhasharr << playhashrow
         # puts ("number #{i+1}")

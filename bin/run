@@ -2,5 +2,5 @@
 
 require_relative "../lib/cli_nbadraft19.rb"
 
-
+# create new run object and run the code
 CLI_NBADraft19.new.run
