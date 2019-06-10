@@ -9,7 +9,7 @@ require_relative "../lib/player.rb"
 URL = "https://www.si.com/nba/2019/nba-draft-big-board-top-100-player-rankings"
 
 # class for CLI for NBA Draft 19 application
-class CLI_NBADraft19
+class CLI_NBADraft2019
     # run method to first scrape, then put the results into a Player object
     def run
       playarray=Scraper.scrape_player(URL)

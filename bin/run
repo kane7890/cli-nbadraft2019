@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/cli_nbadraft19.rb"
+require_relative "../lib/cli_nbadraft2019.rb"
 
 # create new run object and run the code
-CLI_NBADraft19.new.run
+CLI_NBADraft2019.new.run
